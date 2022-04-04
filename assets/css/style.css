@@ -1,0 +1,154 @@
+/* font-family: 'Roboto', sans-serif; */
+/* farbe (background/border): #eee, #ccc 
+farbe text: #659d89, #333, #666, #000
+ */
+
+/* =================================================
+GENERAL
+==================================================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #eee;
+    margin-left: 10vw;
+    font-family: 'Roboto', sans-serif;
+}
+
+body h2 {
+    font-size: 30px;
+}
+
+body h3 {
+    font-size: 25px;
+    border-top: 1px solid lightgrey;
+    padding-top: 50px;
+}
+
+img:hover {
+    box-shadow: 0px 0px 20px 10px rgba(0, 0, 0, 0.5);
+}
+
+/* =================================================
+HEADER
+==================================================== */
+
+
+header nav ul {
+    list-style: none;
+    text-align: left;
+}
+
+header nav ul li {
+    display: inline-block;
+    color: #659d89;
+    margin: 30px 0px;
+}
+
+header nav ul li:nth-of-type(2) {
+    margin: 0px 20px;
+}
+
+header section h1 {
+    font-size: 50px;
+    color: #659d89;
+    margin-top: 50px;
+}
+
+header section h2 {
+    width: 28vw;
+    line-height: 40px;
+    margin-top: 10px;
+}
+
+header section a {
+    display: block;
+    text-align: right;
+    margin-right: 10vw;
+}
+
+header section a:nth-of-type(2) {
+    margin: 10px 10vw;
+}
+
+header p::before {
+    content: "↓ ";
+}
+
+/* =================================================
+MAIN
+==================================================== */
+
+main section h3 {
+    margin-top: 100px;
+}
+
+main section h4 {
+    margin: 20px 0px 60px 0px;
+}
+
+main section:first-child img {
+    margin: 20px;
+}
+
+main section:nth-of-type(2) h3 {
+    margin: 100px 0px 50px 0px;
+}
+
+main section:nth-of-type(2) article {
+    width: 50%;
+    margin: 100px;
+}
+
+main section:nth-of-type(2) img {
+    width: 100%;
+}
+
+main section:nth-of-type(2) img:hover {
+    box-shadow: 0 0 2px 1px rgba(92, 93, 94, 0.5);
+}
+
+main section:nth-of-type(2) article:nth-of-type(even) {
+    margin-left: auto;
+    margin-right: 10vw;
+}
+
+main section:nth-of-type(2) article:nth-of-type(odd) {
+    text-align: left;
+}
+
+main section:nth-of-type(2) p {
+    text-align: center;
+    line-height: 35px;
+}
+
+main section:nth-of-type(2) article p:nth-of-type(2) {
+    font-size: 20px;
+}
+
+/* =================================================
+FOOTER
+==================================================== */
+
+footer a {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    text-align: center;
+    margin: 50px;
+    color: #333;
+    border-top: 1px solid lightgrey;
+    padding-top: 50px;
+}
+
+footer a::before {
+    content: " ↑";
+}
+
+footer p {
+    text-align: center;
+}
